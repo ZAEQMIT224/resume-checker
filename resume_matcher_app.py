@@ -20,7 +20,7 @@ client = OpenAI(api_key=openai_api_key)
 
 
 # --- 2. FIXED NLTK DOWNLOADS FOR STREAMLIT ---
-nltk_packages = ['stopwords', 'punkt', 'averaged_perceptron_tagger', 'punkt_tab', 'averaged_perceptron_tagger']
+nltk_packages = ['stopwords', 'punkt', 'averaged_perceptron_tagger', 'punkt_tab', 'averaged_perceptron_tagger_eng']
 
 for pkg in nltk_packages:
     try:
